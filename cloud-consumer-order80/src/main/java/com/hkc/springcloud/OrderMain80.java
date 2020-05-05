@@ -18,16 +18,7 @@ public class OrderMain80 {
     public static void main(String[] args) {
 
         SpringApplication.run(OrderMain80.class,args);
-        /*int i=0;
-        for (;;) {
 
-            i++;
-            if(i==10){
-                System.out.println("循环里i:"+i);
-                return;
-            }
-            System.out.println("循环外i:"+i);
-        }*/
 
     }
 }

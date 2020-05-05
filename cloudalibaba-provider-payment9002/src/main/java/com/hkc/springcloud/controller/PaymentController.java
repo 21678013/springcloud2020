@@ -21,4 +21,5 @@ public class PaymentController {
 
         return "springcloud nacos ,serverPort:"+serverPort+"  id:"+ id;
     }
+
 }

@@ -2,20 +2,20 @@ package com.hkc.springcloud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.config.server.EnableConfigServer;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 /**
  * @author csc
  * @version 1.0
- * @date  2020/4/22 8:55
+ * @date 2020/4/23 15:05
  */
 @SpringBootApplication
-@EnableConfigServer
-public class ConfigCenterMain3344 {
+@EnableDiscoveryClient
+public class NacosConfigClientMain3377 {
 
+    // 75344872427186
     public static void main(String[] args) {
-        //HashMap hashMap=new HashMap();
-        SpringApplication.run(ConfigCenterMain3344.class,args);
-
+        SpringApplication.run(NacosConfigClientMain3377.class,args);
     }
+
 }

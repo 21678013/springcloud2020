@@ -26,8 +26,7 @@ public class OrderNacosController {
 
     @GetMapping(value = "/consumer/payment/nacos/{id}")
     public  String  paymentInfo(@PathVariable("id") Long id){
-
-
+        //restTemplate.getForObject(serverURL+"/payment/nacos/"+id,String.class);
      return restTemplate.getForObject(serverURL+"/payment/nacos/"+id,String.class);
 
 
